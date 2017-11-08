@@ -1,3 +1,4 @@
+
 def square_array(array)
   squared_array = []
   index =0
@@ -7,3 +8,8 @@ def square_array(array)
   end
   squared_array
 end
+=begin
+def square_array(array)
+  array.collect {|num| num**2}
+end
+=end
