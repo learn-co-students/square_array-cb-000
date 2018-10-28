@@ -5,5 +5,5 @@ def square_array(array)
     squared_array << string*string
   end
 
-  return square_array
+  return squared_array
 end
