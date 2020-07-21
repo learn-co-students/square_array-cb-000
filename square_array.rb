@@ -1,3 +1,9 @@
 def square_array(array)
-  # your code here
+  mish = []
+  array.each do |number|
+    matt =  number * number
+    mike = array.index(number)
+    mish[mike] = matt
+  end
+  return mish
 end
